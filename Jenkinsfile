@@ -10,7 +10,7 @@ pipeline {
     }
     stage('Test'){
       steps {
-        sh './hello1.out'
+        sh './hello1'
       }
     }
     stage('Deploy'){
